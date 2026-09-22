@@ -8,9 +8,6 @@ library(tidyquant)
 library(RiskPortfolios)
 library(shiny)
 #
-getwd()
-list.files()
-#
 # Risky portfolio:
 # ====================================================================================== # 
 # 
