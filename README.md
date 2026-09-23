@@ -1,10 +1,10 @@
-## Project Overview
+# Project Overview
 
 An interactive R Shiny application exploring portfolio contruction using Modern Portfolio Theory.
 The project uses financial market data from LSEG to analyse the relationship between portfolio risk and return across three different portfolios.
 The application allows potential investors to explore individual investments, portfolio performance and differnet portfolio optimisation approaches.
 
-## Key Findings
+# Key Findings
 
 • The three portfolios display different levels of risk and historical performance.
 
@@ -12,7 +12,7 @@ The application allows potential investors to explore individual investments, po
 
 • The portfolio optimisation analysis indentifies differences in how individual assets contribute to portfolio risk under different optimisation approaches.
 
-## Data
+# Data
 
 Financial market data was obtained from LSEG.
 
@@ -31,21 +31,21 @@ The data is used to investigate:
 • Historical investment performance
 
 
-## Methodology
+# Methodology
 
 The project follows this workflow:
 
 Raw data, Cleaning, Analysis, Visualisation
 
-# 1. Data
+## 1. Data
 
 Financial market data was obtained from LSEG and imported into R for analysis.
 
-# 2. Cleaning
+## 2. Cleaning
 
 The data sets were prepared for analysis and the relevent variables were selected and transformed to allow returns and moving averages.
 
-# 3. Analysis
+## 3. Analysis
 
 The analysis includes:
 
@@ -64,17 +64,17 @@ The analysis includes:
 •  Maximum-diversification portfolio analysis
 
 
-# 4. Visualisation
+## 4. Visualisation
 
 The results are presented through an interactive Shiny application.
 
-## Shiny Application
+# Shiny Application
 
-# Methodology
+## Methodology
 
 Provides an overview of the analytical approach and modern portfolio theory.
 
-# Moving Averages
+## Moving Averages
 <img width="1107" height="755" alt="MA" src="https://github.com/user-attachments/assets/62b45835-5c4e-40dc-9f7f-5562071af80d" />
 
 The market sentiment is depicted from the average price, which is represented by the black line.
@@ -88,7 +88,7 @@ Moreover, if the 50 day day moving average line is below the 200 day moving aver
 The 200 day moving average line crosses the average market price lines several times, suggests the price isn't stable and lacks a clear long term trend.
 
 
-# Weekly Return Densities
+## Weekly Return Densities
 <img width="1106" height="742" alt="Weekly Densities" src="https://github.com/user-attachments/assets/9e060e30-a332-45ee-bbfd-05732abc39f6" />
 
 The width of each density gives an indication of the weekly returns.
@@ -101,24 +101,24 @@ This indicates extreme weekly movements occur more frequently than a bell-shaped
 If the stock has multiple peaks, it's possible its returns behave differently under different market conditions.
 
 
-# Portfolios Comparison
+## Portfolios Comparison
 
-(Maximum diversification)
+### Maximum diversification
 ![MA](https://github.com/user-attachments/assets/938382e0-201d-4062-ae1f-12626930c8ea)
 The high-risk portfolio exhibits substantial time-series variation. 
 There are pronounced draw downs as well as periods of rapid recovery, consistent with the higher volatility of the underlying assets.
 
-(Minimum risk)
+### Minimum risk
 ![MA](https://github.com/user-attachments/assets/6df8f797-e216-4975-bcc7-72ef958bc61b)
 The medium-risk portfolio displays a smoother performance profile than the high-risk portfolio, although it can face substantial draw downs. 
 The portfolio demonstrates that diversification can reduce fluctuations without eliminating market risk.
 
-(Risk-Return)
+### Risk-Return
 ![MA](https://github.com/user-attachments/assets/5f1cfbd3-e93b-47e9-8383-621957133b0b)
 The stocks JNJ and KO  are less risky under the optimisation criteria.
 Therefore, the optimisation process can assign PEP.O with zero return.
 
-## Limitations
+# Limitations
 • The analysis does not account for factors such as, transaction costs, taxes or liquidity.
 
 • All stocks are from companies. The gold or silver market was not observed.
@@ -126,7 +126,7 @@ Therefore, the optimisation process can assign PEP.O with zero return.
 • The analysis is based on historical financial data, which may not represent future market performance.
 
 
-## Technologies
+# Technologies
 
 • R
 
@@ -145,7 +145,7 @@ Therefore, the optimisation process can assign PEP.O with zero return.
 •  LSEG financial data
 
 
-## Skills
+# Skills
 • Data cleaning and transformation
 
 • Data visualisation
@@ -159,7 +159,7 @@ Therefore, the optimisation process can assign PEP.O with zero return.
 •  Communicating analytical findings
 
 
-## Author
+# Author
 
 Hannah Munir
 
