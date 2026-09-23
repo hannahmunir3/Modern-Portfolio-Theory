@@ -7,7 +7,9 @@ The application allows potential investors to explore individual investments, po
 ## Key Findings
 
 • The three portfolios display different levels of risk and historical performance.
+
 • The analysis of weekly return distributons highlights differences in the variability and distribution of returns between individual investments.
+
 • The portfolio optimisation analysis indentifies differences in how individual assets contribute to portfolio risk under different optimisation approaches.
 
 ## Data
@@ -15,12 +17,19 @@ The application allows potential investors to explore individual investments, po
 Financial market data was obtained from LSEG.
 
 The data is used to investigate:
+
 • Moving averages
+
 • Retrun distributions
+
 • Portfolio risk and return
+
 • Portfolio diversification
+
 • Weekly return distributions
+
 • Historical investment performance
+
 
 ## Methodology
 
