@@ -7,7 +7,8 @@ The application calculates portfolio risk and return, compares the individual in
 
 RStudio is used to write and run the code.
 
-Firstly, the necessary packages must be installed, then run each library.
+Firstly, the necessary packages must be installed. 
+Secondly, run each library.
 Next, the CSV files are imported into RStudio.
 Each page is created including: Methodology, Moving averages, Weekly densities and portfolio comparison.
 The portfolio comparison page includes: risk-return, maximum diversification and minimum risk.
@@ -27,7 +28,7 @@ The 200 day moving average line crosses the average market price lines several t
 
 
 WEEKLY RETURN DENSITIES:
-![MA](https://github.com/user-attachments/assets/1ac78fc9-ebde-4ea5-8d2e-5168b99b7ea2").
+![MA](https://github.com/user-attachments/assets/1ac78fc9-ebde-4ea5-8d2e-5168b99b7ea2).
 
 The width of each density gives an indication of the weekly returns.
 Narrower distributions indicate lower variability in weekly returns.
