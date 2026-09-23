@@ -120,8 +120,11 @@ Therefore, the optimisation process can assign PEP.O with zero return.
 
 ## Limitations
 • The analysis does not account for factors such as, transaction costs, taxes or liquidity.
+
 • All stocks are from companies. The gold or silver market was not observed.
+
 • The analysis is based on historical financial data, which may not represent future market performance.
+
 
 ## Technologies
 
