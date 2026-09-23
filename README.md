@@ -48,13 +48,21 @@ The data sets were prepared for analysis and the relevent variables were selecte
 # 3. Analysis
 
 The analysis includes:
+
 • Moving averages
+
 • Retrun distributions
+
 • Portfolio risk and return
+
 • Portfolio diversification
+
 • Weekly return distributions
+
 •  Minimum-risk portfolio analysis
+
 •  Maximum-diversification portfolio analysis
+
 
 # 4. Visualisation
 
@@ -96,17 +104,17 @@ If the stock has multiple peaks, it's possible its returns behave differently un
 # Portfolios Comparison
 
 (Maximum diversification)
-![MA](https://github.com/user-attachments/assets/938382e0-201d-4062-ae1f-12626930c8ea).
+![MA](https://github.com/user-attachments/assets/938382e0-201d-4062-ae1f-12626930c8ea)
 The high-risk portfolio exhibits substantial time-series variation. 
 There are pronounced draw downs as well as periods of rapid recovery, consistent with the higher volatility of the underlying assets.
 
 (Minimum risk)
-![MA](https://github.com/user-attachments/assets/6df8f797-e216-4975-bcc7-72ef958bc61b).
+![MA](https://github.com/user-attachments/assets/6df8f797-e216-4975-bcc7-72ef958bc61b)
 The medium-risk portfolio displays a smoother performance profile than the high-risk portfolio, although it can face substantial draw downs. 
 The portfolio demonstrates that diversification can reduce fluctuations without eliminating market risk.
 
 (Risk-Return)
-![MA](https://github.com/user-attachments/assets/5f1cfbd3-e93b-47e9-8383-621957133b0b).
+![MA](https://github.com/user-attachments/assets/5f1cfbd3-e93b-47e9-8383-621957133b0b)
 The stocks JNJ and KO  are less risky under the optimisation criteria.
 Therefore, the optimisation process can assign PEP.O with zero return.
 
@@ -118,21 +126,35 @@ Therefore, the optimisation process can assign PEP.O with zero return.
 ## Technologies
 
 • R
+
 • RStudio
+
 • R Shiny
+
 •  Financial data analysis
+
 •  Statistical analysis
+
 •  Data visualisation
+
 •  Modern Portfolio Theory
+
 •  LSEG financial data
+
 
 ## Skills
 • Data cleaning and transformation
+
 • Data visualisation
+
 • Statistical Analysis
+
 • Interactive dashboard with Shiny
+
 • Financial data analysis
+
 •  Communicating analytical findings
+
 
 ## Author
 
