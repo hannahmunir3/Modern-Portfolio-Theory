@@ -58,6 +58,7 @@ The results are presented through an interactive Shiny application.
 Provides an overview of the analytical approach and modern portfolio theory.
 
 # Moving Averages
+<img width="1107" height="755" alt="MA" src="https://github.com/user-attachments/assets/62b45835-5c4e-40dc-9f7f-5562071af80d" />
 
 The market sentiment is depicted from the average price, which is represented by the black line.
 
@@ -71,6 +72,7 @@ The 200 day moving average line crosses the average market price lines several t
 
 
 # Weekly Return Densities
+<img width="1106" height="742" alt="Weekly Densities" src="https://github.com/user-attachments/assets/9e060e30-a332-45ee-bbfd-05732abc39f6" />
 
 The width of each density gives an indication of the weekly returns.
 Narrower distributions indicate lower variability in weekly returns.
